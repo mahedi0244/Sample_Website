@@ -107,6 +107,10 @@ hoverbox li{
 position:static;
 }
 
+footer{
+	background-color: blue;
+	clear: both;
+}
 
 
 
