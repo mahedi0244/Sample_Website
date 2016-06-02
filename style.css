@@ -35,6 +35,18 @@ header{
     float: right;
     width: 50%;
   }
+#dec{
+	background-color: green;
+    float: left ;
+    width: 50% ;
+  }
+ #link{
+ 	background-color: green;
+    float: right;
+    width: 50%;
+  }
+
+
 .hoverbox{
 cursor: default;
 list-style:none;}
@@ -108,7 +120,6 @@ position:static;
 }
 
 footer{
-	background-color: blue;
 	clear: both;
 }
 
