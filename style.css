@@ -1,0 +1,112 @@
+a{
+	text-decoration: none;
+	color: black;
+}
+li{
+	list-style: none;
+	display: inline;
+}
+header{
+	background-color: gray;
+  	text-align: center ;
+}
+#content {
+  	float: right ;
+  	width: 30% ;
+
+}
+#navbar {
+  	float: right;
+  	width: 30%;
+}
+#innercontent {
+  padding-left: 10px ;
+  padding-right: 10px ;
+}
+#innernavbar {
+  padding-left: 5px ;
+  padding-right: 5px ;
+}
+#left {
+    float: right ;
+    width: 50% ;
+  }
+ #right {
+    float: right;
+    width: 50%;
+  }
+.hoverbox{
+cursor: default;
+list-style:none;}
+
+.hoverbox a{
+cursor: default;
+}
+
+.hoverbox a .preview{
+display:none;
+}
+
+.hoverbox a:hover .preview{
+display:block;
+position: absolute;
+top: -330px;
+left: -45px;
+z-index:1;
+}
+
+.hoberbox img{
+backgrounnd:#fff;
+boder-color #aaa #ccc #ddd #bbb;
+border-style:solid;
+border-width: 1px;
+color:inherit;
+padding: 2px;
+vertical-align:top;
+width:175px;
+}
+
+
+.hoverbox li{
+backgrounnd:#eee;
+boder-color #ddd #bbb #aaa #ccc;
+border-style:solid;
+border-width: 1px;
+color:inherit;
+display:inline;
+float:left;
+margin:3px;
+padding:5px;
+position:relative;
+}
+
+
+.hoverbox .preview{
+border-color:#000;
+width:300px;
+}
+
+.hoverbox a{
+position:relative;
+}
+
+
+.hoverbox a:hover{
+display:block;
+font-size:100%;
+z-index:1;
+}
+
+.hoverbox a:hover .preview{
+top: -38px;
+left: -50px;
+}
+
+
+hoverbox li{
+position:static;
+}
+
+
+
+
